@@ -1,6 +1,7 @@
+@media screen and (max-width: 375px) {
+}
 .body {
   margin: 0;
-  font-family: Nunito Sans;
 }
 
 .body * {
@@ -51,6 +52,10 @@
 
 .header {
   background-color: black;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 15px;
 }
 
 .header-content {
@@ -138,10 +143,10 @@
 }
 
 .hero-container-1 {
-  padding-bottom: 90px;
+  padding-top: 107px;
+  padding-bottom: 414px;
   position: relative;
   display: flex;
-  flex-direction: row-reverse;
 }
 
 .navigation {
@@ -211,5 +216,4 @@
 
 .slider-1 {
   margin: 0;
-  padding-top: 176px;
 }
