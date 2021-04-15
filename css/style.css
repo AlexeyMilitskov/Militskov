@@ -1,7 +1,5 @@
-@media screen and (max-width: 375px) {
-  .body {
-    margin: 0;
-  }
+.body {
+  margin: 0;
 }
 
 .body * {
@@ -216,4 +214,11 @@
 
 .slider-1 {
   margin: 0;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 375px;
+    margin: 0 auto;
+  }
 }
