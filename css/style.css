@@ -221,4 +221,43 @@
     max-width: 375px;
     margin: 0 auto;
   }
+  .header {
+    background-color: black;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+  }
+
+  .header-navigation {
+    list-style: none;
+    display: flex;
+  }
+
+  .header-navigation_item {
+    margin-right: 47px;
+  }
+
+  .header-navigation_item a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .link {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #e3b873;
+  }
 }
