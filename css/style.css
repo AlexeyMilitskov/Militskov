@@ -284,17 +284,24 @@
   }
 
   .button {
+    margin-right: 18px;
+    margin-left: 18px;
+    padding-top: 19px;
+    padding-right: 70px;
+    padding-bottom: 19px;
+    padding-left: 70px;
     height: 51px;
-    width: 338px;
-    left: 18px;
-    top: 344px;
     border-radius: 0px;
   }
 
   .button-1 {
+    margin-right: 18px;
+    margin-left: 18px;
+    padding-top: 19px;
+    padding-right: 70px;
+    padding-bottom: 19px;
+    padding-left: 70px;
     height: 51px;
-    width: 375px;
-    top: 57px;
     border-radius: 0px;
   }
 }
