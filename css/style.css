@@ -195,18 +195,19 @@
 }
 
 .box-5 {
-  flex-direction: column;
-  align-items: flex-start;
+  display: block;
+  margin-top: 42px;
+  margin-right: 89px;
+  margin-bottom: 55px;
+  margin-left: 324px;
 }
 
 .box-6 {
-  flex-direction: column;
-  align-items: flex-start;
+  display: block;
 }
 
 .box-7 {
-  flex-direction: column;
-  align-items: flex-start;
+  display: block;
 }
 
 .link-1 {
