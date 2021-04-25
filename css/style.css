@@ -161,32 +161,37 @@
   padding-top: 107px;
   padding-bottom: 414px;
   position: relative;
-  display: flex;
 }
 
 .navigation {
-  margin: 0;
-  flex-direction: row;
-  justify-content: flex-end;
+  margin-top: 107px;
+  margin-right: 190px;
+  margin-bottom: 52px;
+  margin-left: 626px;
+  display: inline;
 }
 
 .box-1 {
-  justify-content: flex-end;
+  display: inline;
 }
 
 .box-2 {
-  flex-direction: column;
-  align-items: flex-start;
+  display: block;
+  margin: 176px 239px 34px 134px;
 }
 
 .box-3 {
-  flex-direction: column;
-  align-items: flex-start;
+  display: block;
+  margin-right: 50px;
+  margin-bottom: 42px;
+  margin-left: 134px;
 }
 
 .box-4 {
-  flex-direction: column;
-  align-items: flex-start;
+  display: block;
+  margin-right: 124px;
+  margin-bottom: 34px;
+  margin-left: 134px;
 }
 
 .box-5 {
@@ -266,6 +271,7 @@
 }
 
 .slider-1 {
+  margin: 52px 134px 416px 626px;
   width: 679px;
   height: 482px;
 }
