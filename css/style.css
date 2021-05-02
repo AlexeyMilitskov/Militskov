@@ -156,79 +156,71 @@
   background: #131313;
 }
 
-.hero-container-1 {
-  margin: 0;
-  padding-top: 107px;
-  padding-bottom: 414px;
-  position: relative;
-}
-
-.navigation {
-  margin-top: 107px;
-  margin-right: 190px;
-  margin-bottom: 52px;
-  margin-left: 626px;
-  display: inline;
+.container-1 {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .box-1 {
-  display: inline;
-}
-
-.box-2 {
-  display: block;
-  margin: 176px 239px 34px 134px;
-}
-
-.box-3 {
-  display: block;
-  margin-right: 50px;
+  margin-top: 69px;
   margin-bottom: 42px;
-  margin-left: 134px;
+  display: flex;
 }
 
-.box-4 {
-  display: block;
-  margin-right: 124px;
-  margin-bottom: 34px;
-  margin-left: 134px;
+.box_1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
-.box-5 {
-  display: block;
+.blok {
   margin-top: 42px;
-  margin-right: 89px;
-  margin-bottom: 55px;
-  margin-left: 324px;
+  display: flex;
+  flex-direction: row;
 }
 
-.box-6 {
-  display: block;
+.blok-1 {
+  display: flex;
+  flex-direction: row;
 }
 
-.box-7 {
-  display: block;
+.blok1 {
+  margin-right: 124px;
 }
 
-.link-1 {
+.blok-2 {
+  margin-right: 87px;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+}
+
+.navigation-item {
   font-family: Yeseva One;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   text-transform: uppercase;
+}
+
+.navigation-item a {
   color: #e3b873;
 }
 
-.link-2 {
-  list-style: none;
-  text-decoration: none;
+.navigation_item {
   font-family: Yeseva One;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   text-transform: uppercase;
+}
+
+.navigation_item a {
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -238,7 +230,7 @@
   font-weight: normal;
   font-size: 27px;
   line-height: 37px;
-  letter-spacing: -0.07em;
+  margin-bottom: 34px;
   text-transform: uppercase;
   color: #e3b873;
 }
@@ -249,6 +241,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 27px;
+  margin-right: 50px;
   color: #ffffff;
 }
 
@@ -258,6 +251,7 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 25px;
+  margin-bottom: 9px;
   text-transform: uppercase;
   color: #e3b873;
 }
@@ -268,13 +262,25 @@
   font-weight: normal;
   font-size: 13px;
   line-height: 21px;
+  display: inline;
   color: #ffffff;
 }
 
+.korobin {
+  padding: 107px 134px 414px 134px;
+  display: flex;
+  flex-direction: row;
+}
+
 .slider-1 {
-  margin: 52px 134px 416px 626px;
   width: 679px;
   height: 482px;
+  margin-top: 52px;
+  margin-left: 50px;
+}
+
+.slider-box-1 {
+  margin-right: 60px;
 }
 
 @media screen and (max-width: 1440px) {
