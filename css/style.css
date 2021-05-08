@@ -309,7 +309,7 @@
 }
 
 .hero-2 {
-  height: 2000px;
+  height: 1720px;
 }
 
 .slider_2 {
@@ -321,6 +321,18 @@
   width: 817px;
   height: 434px;
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slider_3 {
+  margin-left: 100px;
+}
+
+.slider_4 {
+  margin: 0;
+}
+
+.slider_5 {
+  margin-right: 100px;
 }
 
 .button-2 {
@@ -449,18 +461,23 @@
 .box_4 {
   width: 330px;
   height: 286px;
+  margin-right: 0;
+  margin-left: 100px;
   background: #ffffff;
 }
 
 .box_5 {
   width: 330px;
   height: 286px;
+  margin-right: 0;
   background: #ffffff;
 }
 
 .box_6 {
   width: 330px;
   height: 286px;
+  margin-right: 100px;
+  margin-left: 0;
   background: #ffffff;
 }
 
@@ -495,7 +512,22 @@
   width: 228px;
   height: 54px;
   margin-top: -30px;
-  margin-left: -100px;
+  margin-left: 50px;
+  background: #e3b873;
+}
+
+.blok_2 {
+  width: 228px;
+  height: 54px;
+  margin-top: -30px;
+  background: #e3b873;
+}
+
+.blok_3 {
+  width: 228px;
+  height: 54px;
+  margin-top: -30px;
+  margin-right: 150px;
   background: #e3b873;
 }
 
