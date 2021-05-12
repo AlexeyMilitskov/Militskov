@@ -862,7 +862,7 @@
 }
 
 .p1 {
-  display: inline;
+  display: inline-block;
   font-family: Yeseva One;
   font-style: normal;
   font-weight: normal;
